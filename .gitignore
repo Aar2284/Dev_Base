@@ -1,0 +1,28 @@
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Obsidian
+.obsidian/workspace.json
+.obsidian/cache/
+
+# Data (never push raw datasets)
+data/
+*.csv
+*.parquet
+*.zip
+
+# Secrets
+.env
+*.key
